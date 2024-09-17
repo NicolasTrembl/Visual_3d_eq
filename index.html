@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Représentation paramétrique</title>
+		<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.168.0/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.168.0/examples/jsm/",
+          "katex": "https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"
+        }
+      }
+    </script>
+
+	</head>
+	<body>
+    <div id="scene"></div>
+    <div id="preset_grid_wrapper">
+        <div id="math_panel">
+          <div id="cart">
+            <p>Cartésien</p>
+            <div id="cart_exp">
+              <p id="before_edit"></p>
+              <input type="text" id="cart_edit">
+              <p id="after_edit"></p>
+            </div>
+          </div>
+          <p id="test"></p>
+          <div id="param">
+            <p>Paramétrique</p>
+            <p id="x_param">
+            <p id="y_param">
+            <p id="z_param">
+            <p id="params">
+          </div>
+        </div>
+        <div id="preset_grid">
+            <a id="btn_cube">Cube</a>
+        </div>
+    </div>
+    <script type="module" src="/katex.js"></script>
+		<script type="module" src="/main.js"></script>
+	</body>
+</html>

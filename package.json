@@ -1,0 +1,23 @@
+{
+  "name": "visual-3d-eq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasTrembl/Visual_3d_eq.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicolasTrembl/Visual_3d_eq/issues"
+  },
+  "homepage": "https://github.com/NicolasTrembl/Visual_3d_eq#readme",
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}

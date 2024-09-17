@@ -1,5 +1,8 @@
 import * as THREE from 'three';
 import { ArcballControls } from 'three/addons/controls/ArcballControls.js';
+import  'katex';
+
+console.log(katex);
 
 const CoordSys = {
     Cartesiennes: 'Cartésiennes',
